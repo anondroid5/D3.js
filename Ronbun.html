@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charaset="utf-8">
+	<title>D3.jsの練習</title>
+	<style>
+		.axis path, axis line{
+			fill: none;
+			stroke: black;
+			shape-rendering: crispEdges;
+		}
+		.axis text{
+			font-family: sans-serif;
+			font-size: 10px;
+		}
+	
+	</style>
+</head>
+<body>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script>
+	
+    
+	
+	/*	var dataset = [{
+					      "20130914":[
+					      {"00":5,"01":10,"02":13,"03":19,"04":21,"05":25,"06":22,"07":18,"08":15,"09":13,"10":11,"11":12,"12":15,"13":20,"14":18,"15":17,"16":16,"17":18,"18":23,"19":25,"20":30,"21":35,"22":25,"23":37}
+					      ]
+					   }];
+					   
+	    */
+	    
+	    var dataset = [5,10,13,19,21,25,22,18,15,13,11,12,15,20,18,17,16,18,23,25,30,35,25,37];
+	    
+	    
+		var w = 600;
+		var h = 400;
+		var x_padding = 20;
+		var y_padding = 20;
+		
+		
+		var xScale = d3.scale.linear()
+		                     .domain([0, 23])
+		                     .range([x_padding, w - x_padding]);
+	
+		var yScale = d3.scale.linear()
+		                     .domain([0, d3.max(dataset)])
+		                     .range([h - y_padding, y_padding])
+		                     .nice();
+		
+		
+		
+		
+		var svg = d3.select("body").append("svg").attr({width:w, height:h});
+		
+		
+		var xAxis = d3.svg.axis()
+		                  .scale(xScale)
+		                  .orient("bottom")
+		                  .ticks(23);		
+		
+		var yAxis = d3.svg.axis()
+		                  .scale(yScale)
+		                  .orient("left");
+		svg.append("g")
+		   .attr({
+		   		class: "axis",
+		   		transform: "translate(10," + (h - y_padding) + ")"
+		   
+		   
+		   })
+		   .call(xAxis)
+		   .append("text")
+		   .attr({
+		   		"x": w - x_padding
+		   })
+      	   .style("text-anchor", "end")
+      	   .text("time unit(hours)");
+		   
+		   
+		 svg.append("g")
+		   .attr({
+		   		class: "axis",
+		   		transform: "translate(" + x_padding + ", 0)"
+		   
+		   
+		   })
+		   .call(yAxis)
+		   .append("text")
+		   .attr({
+				"transform": "rotate(-90)",
+		   		"y": 6,
+		   		"dy": ".71em"
+		   })
+      	   .style("text-anchor", "end")
+      	   .text("Tweets (times)");
+	    
+		
+	    
+		svg.selectAll("rect")
+			.data(dataset)
+			.enter()
+			.append("rect")
+			.attr({
+				x: function(d, i){return x_padding +(i * 24.4);},
+				y: function(d){return h - yScale(d);},
+				width: 15,
+				height: function(d){return yScale(d) - y_padding;},
+				fill: "teal",
+				opacity:"0.8"
+			});
+			
+	     
+	</script>
+</body>
+</html>
