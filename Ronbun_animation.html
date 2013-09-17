@@ -55,7 +55,7 @@
 	    
 		var w = 600;
 		var h = 400;
-		var x_padding = 20;
+		var x_padding = 30;
 		var y_padding = 20;
 		
 		
@@ -67,9 +67,6 @@
 		                     .domain([0, d3.max(dataset)])
 		                     .range([h - y_padding, y_padding])
 		                     .nice();
-		
-		
-		
 		
 		var svg = d3.select("body").append("svg").attr({width:w, height:h});
 		
@@ -123,6 +120,15 @@
 			.data(dataset)
 			.enter()
 			.append("rect")
+			.on("mouseover",function(d){
+				d3.select(this).attr("fill","blue");
+			})
+			.on("mouseout",function(d){
+				d3.select(this).attr("fill","teal");
+			})
+			.on("click",function(d){
+				alert(d);
+			})
 			.transition()
 			.delay(function(d, i){
 				return i * 300;
@@ -133,27 +139,26 @@
 				d3.select(this).attr({
 				
 				fill: "black",
-				y: (h - y_padding)
+				y: h
 				});
 			})
 			.attr({
-				x: function(d, i){return x_padding +(i * 24.4);},
+				x: function(d, i){return x_padding +(i * 23.5);},
 				y: 0,
 				width: 15,
-				height: function(d){return yScale(d) - y_padding;},
+				height: function(d){return (h - yScale(d) - y_padding);},
 				fill: "blue"
 			})
 			.each("end", function(){
-			d3.select(this)
-			.transition()
-			.duration(2000)
-			.attr({
-			
-			fill: "teal",
-			y: function(d){return h - yScale(d);}
-			
+				d3.select(this)
+				.transition()
+				.duration(2000)
+				.attr({
+					fill: "teal",
+					opacity:0.8,
+					y: function(d){return (yScale(d));}
+				});
 			});
-		});
 			
 	     
 	</script>
