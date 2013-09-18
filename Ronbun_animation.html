@@ -85,17 +85,17 @@
 	    
 		var w = 600;
 		var h = 400;
-		var x_padding = 30;
-		var y_padding = 20;
+		var xPadding = 30;
+		var yPadding = 35;
 		
 		
 		var xScale = d3.scale.linear()
 		                     .domain([0, 23])
-		                     .range([x_padding, w - x_padding]);
+		                     .range([xPadding, w - xPadding]);
 	
 		var yScale = d3.scale.linear()
 		                     .domain([0, d3.max(dataset)])
-		                     .range([h - y_padding, y_padding])
+		                     .range([h - yPadding, yPadding])
 		                     .nice();
 		
 		var svg = d3.select("body").append("svg").attr({width:w, height:h});
@@ -112,7 +112,7 @@
 		svg.append("g")
 		   .attr({
 		   		class: "axis",
-		   		transform: "translate(10," + (h - y_padding) + ")"
+		   		transform: "translate(10," + (h - yPadding) + ")"
 		   
 		   
 		   })
@@ -120,7 +120,7 @@
 		   .append("text")
 		   .attr({
 				"transform": "rotate(0)",
-		   		"x": w - x_padding - 60,
+		   		"x": w - xPadding - 60,
 		   		"dy": ".0em"
 		   })
       	   .style("text-anchor", "start")
@@ -130,7 +130,7 @@
 		 svg.append("g")
 		   .attr({
 		   		class: "axis",
-		   		transform: "translate(" + x_padding + ", 0)"
+		   		transform: "translate(" + xPadding + ", 0)"
 		   
 		   
 		   })
@@ -150,20 +150,21 @@
 			.data(dataset)
 			.enter()
 			.append("rect")
-			.on("mouseover",function(d){
+			.on("mouseover",function(d, i){
 				d3.select(this).attr("fill","blue");
 			})
 			.on("mouseout",function(d){
 				d3.select(this).attr("fill","teal");
+				
 			})
-			.on("click",function(d){
-				alert(d);
+			.on("click",function(d, i){
+				alert(i+"時の"+"ツイート数は"+ d + "回です。");
 			})
 			.transition()
 			.delay(function(d, i){
-				return i * 300;
+				return i * 30;
 			})
-			.duration(1000)
+			.duration(100)
 			.ease("in")
 			.each("start",function(){
 				d3.select(this).attr({
@@ -173,16 +174,16 @@
 				});
 			})
 			.attr({
-				x: function(d, i){return x_padding +(i * 23.5);},
+				x: function(d, i){return xPadding +(i * 23.5);},
 				y: 0,
 				width: 15,
-				height: function(d){return (h - yScale(d) - y_padding);},
+				height: function(d){return (h - yScale(d) - yPadding);},
 				fill: "blue"
 			})
 			.each("end", function(){
 				d3.select(this)
 				.transition()
-				.duration(2000)
+				.duration(200)
 				.attr({
 					fill: "teal",
 					opacity:0.8,
