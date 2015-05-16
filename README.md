@@ -17,6 +17,8 @@ haccason - haccasonで作成(要ファビコン＆json)
 
 default - svgがノードのForce-Directed Graph(要json)
 
+###Chart
+
 barchart.html - 横棒グラフ
 
 circle.html - 円のD3.js表示練習
