@@ -9,7 +9,13 @@ This library tested on
 #Detail
 ###SocialGraph
 
-twitter-friendship - twitterの人物関係用インターフェース(要画像データ、json)
+twitter-friendship - twitterの人物関係用インターフェース(要画像データ＆json)
+
+lovelive - loveliveの登場キャラの関係(要json)
+
+haccason - haccasonで作成(要ファビコン＆json)
+
+default - svgがノードのForce-Directed Graph(要json)
 
 barchart.html - 横棒グラフ
 
