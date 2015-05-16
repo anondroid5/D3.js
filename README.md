@@ -3,7 +3,8 @@ Data-Driven Documents (D3.js)
 
 #Environment
 This library tested on
-.Mobile Safari
+
+・Mobile Safari
 
 #Detail
 barchart.html - 横棒グラフ
