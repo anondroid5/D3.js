@@ -7,6 +7,10 @@ This library tested on
 ・Mobile Safari
 
 #Detail
+###SocialGraph
+
+twitter-friendship - twitterの人物関係用インターフェース(要画像データ、json)
+
 barchart.html - 横棒グラフ
 
 circle.html - 円のD3.js表示練習
