@@ -14,9 +14,9 @@ columnchart.html - 縦棒グラフ
 
 index.html - update(),enter(),exit()の領域概念
 
-Ronbun.html - 論文で作成予定のグラフ
+Ronbun.html - 縦棒グラフ
 
-Ronbun_animation.html - 論文で作成予定のアニメーション付きグラフ
+Ronbun_animation.html - アニメーション付き縦棒グラフ
 
 #Author
 Michael Bostock
