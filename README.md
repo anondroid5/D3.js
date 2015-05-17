@@ -32,15 +32,7 @@ Ronbun.html - 縦棒グラフ
 Ronbun_animation.html - アニメーション付き縦棒グラフ
 
 #Author
-###SocialGraph
 Fumihiko Akagi
-
-###Chart
-Michael Bostock
-
-Jeffrey Heer
-
-Vadim Ogievetsky
 
 #Copyright
 MIT
