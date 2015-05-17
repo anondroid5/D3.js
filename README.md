@@ -35,4 +35,4 @@ Ronbun_animation.html - アニメーション付き縦棒グラフ
 Fumihiko Akagi
 
 #Copyright
-MIT
+The MIT License
