@@ -6,7 +6,7 @@ This library tested on
 
 ・Mobile Safari
 
-#Detail φ(・ω・ )
+#Detail ...φ(･Å･´*)
 ###SocialGraph
 
 twitter-friendship - twitterの人物関係用Graph(要画像データ＆json)
