@@ -7,6 +7,16 @@ This library tested on
 ・Mobile Safari
 
 #Detail .....φ(･Å･´*)
+###SocialGraph
+
+twitter-friendship - twitterの人物関係用Graph(要画像データ＆json)
+
+lovelive - loveliveの登場キャラの関係(要json)
+
+haccason - haccasonで作成(要ファビコン＆json)
+
+default - svgがノードのForce-Directed Graph(要json)
+
 ###Chart
 
 barchart.html - 横棒グラフ
@@ -21,27 +31,16 @@ Ronbun.html - 縦棒グラフ
 
 Ronbun_animation.html - アニメーション付き縦棒グラフ
 
-###SocialGraph
-
-twitter-friendship - twitterの人物関係用Graph(要画像データ＆json)
-
-lovelive - loveliveの登場キャラの関係(要json)
-
-haccason - haccasonで作成(要ファビコン＆json)
-
-default - svgがノードのForce-Directed Graph(要json)
-
-
 #Author
+###SocialGraph
+Fumihiko Akagi
+
 ###Chart
 Michael Bostock
 
 Jeffrey Heer
 
 Vadim Ogievetsky
-
-###SocialGraph
-Fumihiko Akagi
 
 #Copyright
 MIT
