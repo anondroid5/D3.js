@@ -9,7 +9,7 @@ This library tested on
 #Detail
 ###SocialGraph
 
-twitter-friendship - twitterの人物関係用インターフェース(要画像データ＆json)
+twitter-friendship - twitterの人物関係用Graph(要画像データ＆json)
 
 lovelive - loveliveの登場キャラの関係(要json)
 
