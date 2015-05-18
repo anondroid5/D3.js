@@ -9,13 +9,13 @@ This library tested on
 #Detail .....φ(･Å･´*)
 ###SocialGraph
 
-twitter-friendship - twitterの人物関係用Graph(要画像データ＆json)
+twitter-friendship - twitterの人物関係グラフ
 
-lovelive - loveliveの登場キャラの関係(要json)
+lovelive - loveliveの登場キャラの関係グラフ
 
-haccason - haccasonで作成(要ファビコン＆json)
+haccason - ファビコングラフ(haccasonで作成)
 
-default - svgがノードのForce-Directed Graph(要json)
+default - Force-Directed Graph
 
 ###Chart
 
