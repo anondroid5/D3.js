@@ -5,11 +5,8 @@ Data-Driven Documents (D3.js)
 This library tested on
 
 - IE
-
 - Firefox
-
 - Chrome
-
 - Safari
 
 #Details .....φ(･Å･´*)
