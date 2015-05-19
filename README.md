@@ -4,7 +4,13 @@ Data-Driven Documents (D3.js)
 #Environment
 This library tested on
 
-・Mobile Safari
+-IE
+
+-Firefox
+
+-Chrome
+
+-Safari
 
 #Details .....φ(･Å･´*)
 ###SocialGraph
