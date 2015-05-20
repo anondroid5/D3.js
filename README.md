@@ -36,6 +36,8 @@ circle.html - 円のD3.js表示練習
 
 columnchart.html - 縦棒グラフ
 
+<img src="./Raw/images/columnchart.png" alt="columnchart">
+
 index.html - update(),enter(),exit()の領域概念
 
 Ronbun.html - 縦棒グラフ
