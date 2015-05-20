@@ -50,7 +50,7 @@ d3.json("./json/graph.json", function(error, json) {
       .call(force.drag);
 
   node.append("image")
-      .attr("xlink:href", function(d) { if (d.group == "1") { return "icon/git.ico";} else {return "icon/vivd.ico";}})
+      .attr("xlink:href", function(d) { if (d.group == "1") { return "./icon/git.ico";} else {return "./icon/vivd.ico";}})
       .attr("x", -8)
       .attr("y", -8)
       .attr("width", 16)
