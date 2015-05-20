@@ -14,7 +14,7 @@ default - Force-Directed Graph
 
 hackathon - ファビコングラフ
 
-<img src="./Raw/images/hackathon.gif" width="350" alt="hackathon">
+<img src="./Raw/images/hackathon.gif" alt="hackathon">
 
 twitter-friendship - twitterの人物関係グラフ
 
