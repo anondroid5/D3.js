@@ -12,19 +12,19 @@ This library tested on
 ###SocialGraph
 twitter-friendship - twitterの人物関係グラフ
 
-<img src="./Raw/images/twitter-friendship.png" width="200" alt="twitter-friendship">
+<img src="./Raw/images/twitter-friendship.png" width="300" alt="twitter-friendship">
 
 lovelive - loveliveの登場キャラの関係グラフ
 
-<img src="./Raw/images/lovelive.png" width="200" alt="lovelive">
+<img src="./Raw/images/lovelive.png" width="300" alt="lovelive">
 
 haccason - ファビコングラフ(haccasonで作成)
 
-<img src="./Raw/images/haccason.png" width="200" alt="haccason">
+<img src="./Raw/images/haccason.png" width="300" alt="haccason">
 
 default - Force-Directed Graph
 
-<img src="./Raw/images/default.png" width="200" alt="default">
+<img src="./Raw/images/default.png" width="300" alt="default">
 
 ###Chart
 
