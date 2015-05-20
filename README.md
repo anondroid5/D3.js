@@ -22,7 +22,7 @@ twitter-friendship - twitterの人物関係グラフ
 
 lovelive - loveliveの登場キャラの関係グラフ
 
-<img src="./Raw/images/lovelive.png" width="350" alt="lovelive">
+<img src="./Raw/images/lovelive.gif" alt="lovelive">
 
 ###Chart
 
