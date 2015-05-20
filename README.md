@@ -28,6 +28,8 @@ lovelive - loveliveの登場キャラの関係グラフ
 
 barchart.html - 横棒グラフ
 
+<img src="./Raw/images/barchart.png" alt="barchart">
+
 circle.html - 円のD3.js表示練習
 
 columnchart.html - 縦棒グラフ
