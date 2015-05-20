@@ -10,6 +10,14 @@ This library tested on
 
 #Details .....φ(･Å･´*)
 ###SocialGraph
+default - Force-Directed Graph
+
+<img src="./Raw/images/default.png" width="350" alt="default">
+
+haccason - ファビコングラフ(haccasonで作成)
+
+<img src="./Raw/images/haccason.png" width="350" alt="haccason">
+
 twitter-friendship - twitterの人物関係グラフ
 
 <img src="./Raw/images/twitter-friendship.png" width="350" alt="twitter-friendship">
@@ -17,14 +25,6 @@ twitter-friendship - twitterの人物関係グラフ
 lovelive - loveliveの登場キャラの関係グラフ
 
 <img src="./Raw/images/lovelive.png" width="350" alt="lovelive">
-
-haccason - ファビコングラフ(haccasonで作成)
-
-<img src="./Raw/images/haccason.png" width="350" alt="haccason">
-
-default - Force-Directed Graph
-
-<img src="./Raw/images/default.png" width="350" alt="default">
 
 ###Chart
 
