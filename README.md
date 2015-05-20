@@ -6,7 +6,6 @@ This library tested on
 
 - IE
 - Firefox
-- Chrome
 - Safari
 
 #Details .....φ(･Å･´*)
