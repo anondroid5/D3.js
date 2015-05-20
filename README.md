@@ -42,11 +42,13 @@ columnchart2.html - Hover機能付き縦棒グラフ(クリックでデータ表
 
 <img src="./Raw/images/columnchart2.gif" alt="columnchart2">
 
+columnchart3.html - アニメーション付き縦棒グラフ(クリックでデータ表示)
+
+<img src="./Raw/images/columnchart3.gif" alt="columnchart3">
+
 index.html - update(),enter(),exit()の領域概念
 
 <img src="./Raw/images/index.png" alt="index">
-
-Ronbun_animation.html - アニメーション付き縦棒グラフ
 
 #Author
 Fumihiko Akagi
