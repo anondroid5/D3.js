@@ -38,11 +38,13 @@ columnchart.html - 縦棒グラフ
 
 <img src="./Raw/images/columnchart.png" alt="columnchart">
 
+columnchart2.html - Hover機能付き縦棒グラフ(クリックでデータ表示)
+
+<img src="./Raw/images/columnchart2.gif" alt="columnchart2">
+
 index.html - update(),enter(),exit()の領域概念
 
 <img src="./Raw/images/index.png" alt="index">
-
-Ronbun.html - 縦棒グラフ
 
 Ronbun_animation.html - アニメーション付き縦棒グラフ
 
