@@ -10,7 +10,7 @@ This library tested on
 ###SocialGraph
 default - Force-Directed Graph
 
-<img src="./Raw/images/default.png" width="350" alt="default">
+<img src="./Raw/images/default.gif" alt="default">
 
 hackathon - ファビコングラフ
 
