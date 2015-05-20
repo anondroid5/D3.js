@@ -4,7 +4,7 @@ Data-Driven Documents (D3.js)
 #Environment
 This library tested on
 
-- Mozilla Firefox
+- Mozilla Firefox 38.0.1
 
 #Details .....φ(･Å･´*)
 ###SocialGraph
