@@ -32,7 +32,7 @@ barchart.html - 横棒グラフ
 
 circle.html - 円のD3.js表示練習
 
-<img src="./Raw/images/circle.png" alt="circle">
+<img src="./Raw/images/circle.gif" alt="circle">
 
 columnchart.html - 縦棒グラフ
 
