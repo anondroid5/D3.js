@@ -40,6 +40,8 @@ columnchart.html - 縦棒グラフ
 
 index.html - update(),enter(),exit()の領域概念
 
+<img src="./Raw/images/index.png" alt="index">
+
 Ronbun.html - 縦棒グラフ
 
 Ronbun_animation.html - アニメーション付き縦棒グラフ
