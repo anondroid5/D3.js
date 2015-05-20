@@ -12,7 +12,7 @@ default - Force-Directed Graph
 
 <img src="./Raw/images/default.png" width="350" alt="default">
 
-haccason - ファビコングラフ
+hackathon - ファビコングラフ
 
 <img src="./Raw/images/haccason.png" width="350" alt="haccason">
 
