@@ -18,7 +18,7 @@ hackathon - ファビコングラフ
 
 twitter-friendship - twitterの人物関係グラフ
 
-<img src="./Raw/images/twitter-friendship.png" width="350" alt="twitter-friendship">
+<img src="./Raw/images/twitter-friendship.gif" width="350" alt="twitter-friendship">
 
 lovelive - loveliveの登場キャラの関係グラフ
 
