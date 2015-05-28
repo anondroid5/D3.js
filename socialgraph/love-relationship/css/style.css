@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*** field ***/
+#graph {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: dashed 1px #000;
+}
+
+/*** force layout ***/
+.node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.link {
+    stroke: #999;
+    stroke-opacity: .6;
+}
+
+.node text {
+    font: 16px helvetica;
+}
