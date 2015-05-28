@@ -12,19 +12,19 @@ default - Force-Directed Graph
 
 <img src="./Raw/images/default.gif" alt="default">
 
-hackathon - ファビコングラフ
+hackathon - ファビコングラフ(無向グラフ)
 
 <img src="./Raw/images/hackathon.gif" alt="hackathon">
 
-twitter-friendship - twitterの人物関係グラフ
+twitter-friendship - twitterの人物関係グラフ(無向グラフ)
 
 <img src="./Raw/images/twitter-friendship.gif" width="350" alt="twitter-friendship">
 
-lovelive - loveliveの登場キャラの関係グラフ
+lovelive - loveliveの登場キャラの関係グラフ(無向グラフ)
 
 <img src="./Raw/images/lovelive.gif" alt="lovelive">
 
-love-relationship - 恋愛関係グラフ
+love-relationship - 恋愛関係グラフ(有向グラフ)
 
 ###Chart
 
