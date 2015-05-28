@@ -24,6 +24,8 @@ lovelive - loveliveの登場キャラの関係グラフ
 
 <img src="./Raw/images/lovelive.gif" alt="lovelive">
 
+love-relationship - 恋愛関係グラフ
+
 ###Chart
 
 barchart.html - 横棒グラフ
