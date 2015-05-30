@@ -35,13 +35,6 @@ love-relationship - 恋愛関係グラフ(有向グラフ)
 
 <img src="./Raw/images/love-relationship.gif" alt="love-relationship">
 
-データセット
-
-|No.|名前|性別|好き(No.)|
-|:-:|:--:|:--:|:-------:|
-| 1 | 蓮 | 男 | 陽菜 (6)|
-
-
 ###Chart
 
 barchart.html - 横棒グラフ
