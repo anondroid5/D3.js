@@ -11,7 +11,7 @@ For examples, [see the gallery](https://github.com/mbostock/d3/wiki/Gallery) and
 #Environment
 This library tested on
 
-- Mozilla Firefox 38.0.1
+- Mozilla Firefox 38
 
 #Details .....φ(･Å･´*)
 ###SocialGraph
